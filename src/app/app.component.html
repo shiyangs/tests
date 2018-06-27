@@ -1,3 +1,29 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+  <h1>{{title}}</h1>
+  <ul>
+    <li>sign in</li>
+    <li>sign up</li>
+  </ul>
+  <section id = 'main'>
+    <nav>
+
+      <h2>{{t2}}</h2>
+    </nav>
+    <app-home (result) = printData($event)>
+    </app-home>
+  </section>
+
+  <section id = 'history'>
+    <nav>
+      <ul>
+        <li><a href = '/history'>History of today</a></li>
+        <li><a href = '/yours'>Your History</a></li>
+      </ul>
+    </nav>
+    <body>
+      <router-outlet></router-outlet>
+    </body>
+  </section>
+
+</header>
+

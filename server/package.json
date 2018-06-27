@@ -1,0 +1,37 @@
+{
+  "name": "hw01",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "cookie": "^0.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "deferred": "^0.7.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.4",
+    "morgan": "~1.9.0",
+    "oauth": "^0.9.15",
+    "pug": "2.0.0-beta11",
+    "request": "^2.87.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiyangs/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiyangs/test/issues"
+  },
+  "homepage": "https://github.com/shiyangs/test#readme",
+  "description": ""
+}
